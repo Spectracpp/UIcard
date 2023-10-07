@@ -107,7 +107,13 @@ body {
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
+
 .buttons .button:hover {
   background-color: #0e4bf1;
 }
 
+.profile-card .buttons .button a {
+  color: white; /* Set text color for anchor elements inside buttons */
+  text-decoration: none; /* Remove underline from anchor elements */
+}
